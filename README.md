@@ -2,6 +2,8 @@
 
 ## Javascript question: event loop
 
+### Question
+
 In what order will the following numbers be logged, and why?
 
 ```
@@ -11,6 +13,9 @@ setTimeout(() ⇒ console.log(3))
 Promise.resolve(4).then(console.log)
 console.log(5)
 ```
+
+### Answer
+// Your answer goes here.
 
 ## Javascript test: arrays
 
@@ -28,3 +33,6 @@ Filename: [cssBattle.css](https://github.com/emigreat-dev/internship-code-test/b
 ## Personal project
 
 Provide a link to a personal project that you're proud of and happy to share with us. It can be anything from a component to a system.
+
+### Link to project
+// Your link goes here.
