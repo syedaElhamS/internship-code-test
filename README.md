@@ -1,1 +1,1 @@
-# internship-code-test
+# Internship code test
