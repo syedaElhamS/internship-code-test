@@ -16,6 +16,8 @@ console.log(5)
 
 Write a function that accepts an array of strings. Return the longest string in the array.
 
+Filename: [longestString.js](https://github.com/emigreat-dev/internship-code-test/blob/main/longestString.js)
+
 ## CSS test: [https://cssbattle.dev/](https://cssbattle.dev/)
 Pick any css battle where the solution requires at least three html elements (or one html element + pseudo elements, e.g. 'before' and 'after').
 
