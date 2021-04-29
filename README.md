@@ -1,5 +1,7 @@
 # Emigreat Summer internship code test
 
+Thanks for showing an interest in the Emigreat summer internship program!  In order to submit your code test, please fork this repository and send us a link to your solution together with your cover letter when you respond to the internship advertisement.
+
 ## Javascript question: event loop
 
 ### Question
