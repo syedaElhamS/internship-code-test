@@ -18,6 +18,15 @@ console.log(5)
 
 ### Answer
 // Your answer goes here.
+1
+5
+4
+3
+2
+The reason is when line 2, 3 is executed,  the callstack pushes the setTimeout() to web API during runtime and webAPI wait 5 and 0 seconds respectively for line 2 and 3 to push the callback functions to the event queue. When the current stack is empty, the event loop then pushes these callbacks to the stack.  3 is printed before 2 as there was a waiting period of 5 seconds for the console.log(2) in line 2. Hence the callback printing 3 is entered first in callback queue and goes to the stack first and then prints 3. After that callback printing 2 enters the stack and prints 2.
+In case of lines 1, 5 console.log is in the the WebAPI and directly called without going for an event loop to execute. 
+For line 4 ‘Promise then’ is a microtask and therefore 4 is printed after the tasks (lines 1,5) and before setTimeouts (as setTimeouts create macrotasks and microtasks are executed before macro tasks )
+
 
 ## Javascript test: arrays
 
